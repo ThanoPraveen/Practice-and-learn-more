@@ -1,0 +1,51 @@
+/*
+// vertical view
+
+.icon-bar {
+  width: 90px; // get specific width
+  background-color: #555;
+
+  a {
+    display: block; // Make the links appear below each other instead of side-by-side 
+    text-align: center; // Center-align text
+    padding: 16px; // Add some padding
+    transition: all 0.3s ease; // Add transition for hover effects
+    color: #fff; // White text color
+    font-size: 36px; // Increased font-size
+  }
+
+  a:hover {
+    background-color: #000; // Add a hover color
+  }
+
+  .active {
+    background-color: #04aa6d; // Add an active/current color
+  }
+}
+*/
+
+// Horizontal view
+
+.icon-bar {
+  width: 100%; // full width
+  background-color: #555;
+  overflow: auto; //
+
+  a {
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 20px 0;
+    transition: all 0.3s ease; // Add transition for hover effects
+    color: #fff;
+    font-size: 28px;
+  }
+
+  a:hover {
+    background-color: #000;
+  }
+
+  .active {
+    background-color: #04aa6d;
+  }
+}
