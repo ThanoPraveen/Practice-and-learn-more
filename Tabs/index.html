@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Tabs are perfect for single page web applications, or for web pages capable of displaying different subjects. -->
+
+    <!-- Tab links start -->
+    <div class="tab">
+      <button
+        class="tabLinks"
+        onclick="openCity(event, 'London')"
+        id="defaultOpen"
+      >
+        London
+      </button>
+      <button class="tabLinks" onclick="openCity(event, 'Paris')">Paris</button>
+      <button class="tabLinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+    </div>
+    <!-- Tab Links End -->
+
+    <!-- Tab content start -->
+    <div id="London" class="tabContent">
+      <h3>London</h3>
+      <p>London is the capital city of England.</p>
+      <span onclick="this.parentElement.style.display='none'">X</span>
+    </div>
+    <div id="Paris" class="tabContent">
+      <h3>Paris</h3>
+      <p>Paris is the capital of France.</p>
+      <span onclick="this.parentElement.style.display='none'">X</span>
+    </div>
+    <div id="Tokyo" class="tabContent">
+      <h3>Tokyo</h3>
+      <p>Tokyo is the capital of Japan.</p>
+      <span onclick="this.parentElement.style.display='none'">X</span>
+    </div>
+    <!-- Tab content end -->
+    <!-- ========== Start JS link ========== -->
+    <script src="./script.js"></script>
+    <!-- ========== End JS link ========== -->
+  </body>
+</html>
