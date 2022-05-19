@@ -31,6 +31,7 @@
 .tabContent {
   display: none;
   padding: 6px 12px;
+  padding-bottom: 20px;
   border: 1px solid #ccc;
   border-top: none;
   animation: fadeEffect 1s;

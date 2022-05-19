@@ -3,7 +3,6 @@ function openCity(evt, cityName) {
   var i, tabContent, tabLinks;
 
   // Get all elements with class="tabContent" and hide them
-  document.getElementById("defaultOpen").click();
   tabContent = document.getElementsByClassName("tabContent");
   for (i = 0; i < tabContent.length; i++) {
     tabContent[i].style.display = "none";
